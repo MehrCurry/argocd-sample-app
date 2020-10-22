@@ -1,11 +1,11 @@
-// This is where project configuration and plugin options are located. 
+// This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
 // Changes here require a server restart.
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'ArgoCD Demo App',
   siteDescription: "An open-source framework to generate awesome pages",
   plugins: [
     {
@@ -84,9 +84,9 @@ module.exports = {
         }],
         require('./packages/gridsome-plugin-remark-figure')
       ],
-      
+
       processImages: false
-      
+
     }
   },
   templates: {
